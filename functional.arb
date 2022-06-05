@@ -59,4 +59,12 @@ rat.delete(lab) # returns "lab" again
 
 rat.downcase # <=> true
 "rat".each_char {|c| print c, ' ' } #prints l a b r a t (hopefully)
+rat.reverse# returns tarbal
+rat.reverse # required for reset
 
+rat.split("") # returns "l" "a" "b "r" "a" "t"
+rat.split.reverse <=> rat # checks this case for a palendrome
+
+.prepend
+.insert
+.to_s # to string

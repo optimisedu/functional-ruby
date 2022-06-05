@@ -1,0 +1,62 @@
+#vvery basic methods/test
+6.even
+7.even
+6.odd
+7.odd
+
+#string literals (+"'/''")
+"hello"[4]
+"hello"[0:4]
+"hello"[-1]
+
+#escape charactors
+\n #newline
+\s #space
+\r #tab
+# \" for quote, single quoteation too or string literals
+puts "hello\n hello"
+
+name = "david"
+
+puts "hello ${name}"
+
+#common string methods
+
+name.capitolize
+
+s = String.new(capacity: 2) # = ""
+s * 0 # clear string
+s = "str" # boolean return - lesson learnedonto str
+
+str = "str"# reset our labrat string to str rather than s
+str * 3 # =" strstrst"
+str = s[0:2]# full string
+
+str <<"ing" #="string"
+
+str <=> "string" # comparison returns integer
+str.casecmp('s') # -2 return
+str.casecmp(1)# cnil return
+str.casecmp('string') # 2 return
+
+str.casecmp?('string') #boolean returns false
+
+lab = rat
+rat.chr #returns "r"
+rat.clear#returns ""
+
+lab = "rat"
+rat = "lab"
+
+rat.concat(lab) #returns "labrat"
+
+rat.count# for future testing either returns 5 or 2
+rat.count("a")# returns 0 rather than nul At A GUESS
+
+rat.delete("rat") #returns "lab"
+rat.concat("lab") # resets
+rat.delete(lab) # returns "lab" again
+
+rat.downcase # <=> true
+"rat".each_char {|c| print c, ' ' } #prints l a b r a t (hopefully)
+

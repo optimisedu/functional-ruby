@@ -1,4 +1,4 @@
-#RUBY IS AN RTL LANGUAGe
+#RUBY IS AN RTL LANGUAGE
 7.even
 6.odd
 7.odd
@@ -95,6 +95,11 @@ puts a
 total = 0
 [1, 2, 3].each { |number| total += number }
 puts total # 6
+arr = [1, 2, 3]
+arr_two = [2 ,3 ,4]
+
+arr_two.merge(arr)
+arr_two.update(arr)# destructive
 
 total = 0
   [1,2,3] each do |number|
@@ -115,5 +120,28 @@ puts "hello " + name
 # METHODS
 
 def say(words)#like a python function but with no class initiator or : as standard
-    
+
+class Menu
+  include enumarable
+
+  def each
+      yield "pizza"
+      yield "pie"
+      yield "bread"
+  end
+end
+menu_options Menu.new
+  p menu_options find {|item| item = "pizza"}
+  p menu_options select {|item| item.size <= 3}
+  p menu_options.sort
+  p menu_options.min
+
+
+#useful gems:
+
+jekyll# SSG - in order to use Jekyll over 11ty, Gatsby or Grimby
+#need to work hard on either webpack or GULP
+
+bundler#simplifies bundling
+ruby-seo#not great for meta tags
 

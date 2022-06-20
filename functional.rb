@@ -1,3 +1,12 @@
+$DASH = "-"
+$DOT = "."
+$EMPTY = ""
+$USCORE = "_"
+$SPACE = " "
+$i = 0
+
+
+
 #RUBY IS AN RTL LANGUAGE
 7.even
 6.odd

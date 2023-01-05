@@ -5,6 +5,7 @@ $USCORE = "_"
 $SPACE = " "
 $i = 0
 
+tk = gui
 
 
 #RUBY IS AN RTL LANGUAGE
